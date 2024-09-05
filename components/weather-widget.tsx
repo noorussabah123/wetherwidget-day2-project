@@ -163,7 +163,7 @@ export default function WeatherWidget() {
                 <div>{getWeatherMessage(weather.description)}</div>
               </div>
               <div className="flex items-center gap-2">
-                <MapPinIcon className="w-6 h-6 fill-red-400" />
+                <MapPinIcon className="w-6 h-6 fill-green-300" />
                 <div>{getLocationMessage(weather.location)}</div>
               </div>
             </div>
